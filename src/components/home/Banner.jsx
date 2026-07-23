@@ -4,7 +4,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-end items-center'>
       <div className='flex-1 space-y-5'>
         <h2 className={`${fontBangla.className} text-7xl font-bold leading-20`}>আপনার শিশুকে দিন  একটি <br /> <span className='text-primary'>সুন্দর ভবিষ্যৎ</span></h2>
         <p className=''>By Every toy with up to 15% Discount</p>
@@ -12,7 +12,7 @@ const Banner = () => {
       </div>
       <div className='flex-1'>
       <Image src={"/assets/hero.png"} alt='By Every toy with up to 15% Discount'
-      width={500}
+      width={900}
       height={400}
       ></Image>
       </div>
